@@ -10,9 +10,7 @@ import random
 import os
 import unicodedata
 import re
-import asyncio
 import httpx
-import nest_asyncio
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import gspread
@@ -22,9 +20,7 @@ import json
 from selenium.webdriver.chrome.options import Options
 import os
 import requests
-import instructor
 from enum import Enum
-from pydantic import BaseModel, Field, field_validator, constr, ValidationError, model_validator
 from typing import List, Optional, Any
 from google.cloud import bigquery
 from google.oauth2 import service_account
