@@ -162,7 +162,7 @@ for job_url in job_urls:
         "division": division,
         "experienceLevel": experienceLevel,
         "url": job_url,
-        "source":"Goldman Sachs",
+        "source":"Goldman Sachs Student",
         "scrappedDate": scrappedDate,
         "scrappedHour": scrappedHour,
         "scrappedMinutes": scrappedMinutes,
